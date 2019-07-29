@@ -1,0 +1,16 @@
+excluded:
+  - Tests/SwiftLintFrameworkTests/Resources
+  - Pods
+  - FreeWire EV/Extentions
+  - R.generated.swift
+  - FreeWire EV/CustomControls/WDColorPickerView
+  - FreeWire EV/CustomControls/iOSDevCenters+GIF.swift
+  
+disabled_rules: # rule identifiers to exclude from running
+  - trailing_whitespace
+  - line_length
+  - sorted_imports
+  - cyclomatic_complexity
+  - force_cast
+  - multiple_closures_with_trailing_closure
+  - function_body_length
