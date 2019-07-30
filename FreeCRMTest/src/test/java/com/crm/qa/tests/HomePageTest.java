@@ -42,6 +42,12 @@ public class HomePageTest extends TestBase {
 		Assert.assertTrue(homepage.verifyCorrectUserName());
 	}
 
+	@Test(priority = 3)
+	public void verifyContactLinkTest() {
+		testUtil.switchToFrame();
+		homepage.clickOnContacts();
+	}
+
 	@AfterMethod
 	public void teadDown() {
 		driver.quit();
