@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="FreeCRMTest/src/main/java"/>
+	<classpathentry kind="src" path="FreeCRMTest/src/test/java"/>
+	<classpathentry kind="src" path="iOS_Appium/freewire/src/main/java"/>
+	<classpathentry kind="src" path="iOS_Appium/freewire/src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="FreeCRMTest/target/classes"/>
+</classpath>
